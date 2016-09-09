@@ -7,7 +7,7 @@ from urllib2 import URLError
 import sys,argparse
 class zabbix_api: 
 	def __init__(self): 
-	    self.url = 'http://zabbix.ops.ulucu.com/api_jsonrpc.php'
+	    self.url = 'http://zabbix.hxy.com/api_jsonrpc.php'
 	    self.header = {"Content-Type":"application/json"}         
 	     
 	     
@@ -17,7 +17,7 @@ class zabbix_api:
 	                       "method": "user.login", 
 	                       "params": { 
 	                                  "user": "admin",
-	                                  "password": "ulu@2014saCU%"
+	                                  "password": "123456"
 	                                  }, 
 	                       "id": 0 
 	                       }) 
